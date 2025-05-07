@@ -30,4 +30,8 @@ yarn-error.log*
 
 # Firebase
 .firebase/
-firebase-debug.log 
+firebase-debug.log
+
+# Secret files
+backend/config/firebase-service-account.json
+resturant-4df6e-firebase-adminsdk-fbsvc-4cccdfc99d.json
