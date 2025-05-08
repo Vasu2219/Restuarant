@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "link": "frontend"
+    },
+    {
+      "link": "backend"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "backend/server.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "frontend/build/index.html"
+    }
+  ]
+}
