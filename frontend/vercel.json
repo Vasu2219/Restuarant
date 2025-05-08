@@ -31,8 +31,22 @@
       "dest": "/logo512.png"
     },
     {
-      "src": "/(.*)",
+      "src": "/robots.txt",
+      "dest": "/robots.txt"
+    },
+    {
+      "src": "^/static/(.*)",
+      "dest": "/static/$1"
+    },
+    {
+      "src": "^/.*",
       "dest": "/index.html"
     }
+  ],
+  "rewrites": [
+    {
+      "source": "^/(.*)$",
+      "destination": "/index.html"
+    }
   ]
-} 
+}
