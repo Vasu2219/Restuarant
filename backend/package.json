@@ -1,8 +1,11 @@
 {
-  "name": "backend",
+  "name": "restaurant-backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Backend for Restaurant Application",
+  "main": "server.js",
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "dependencies": {
     "abort-controller": "^3.0.0",
     "accepts": "^1.3.8",
